@@ -1,0 +1,94 @@
+.container-fluid{
+    width: 800px;
+    border: 5px solid lightgreen;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 30px;
+    margin: 10px;
+    height: 180px;
+    position: relative;
+    left: 160px;
+}
+
+.text{
+    position: relative;
+    top: -20px;
+    left: 280px;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.details{
+    position: relative;
+}
+
+.desc{
+    position: relative;
+    left: 50px;
+    top: -35px;
+    width: 700px;
+    border-color: yellowgreen;
+    border-top-width: 0ch;
+    border-right-width: 0ch;
+    border-left-width: 0ch;
+}
+
+.date{
+    position: relative;
+    left: 50px;
+    top: -35px;
+}
+
+.amount{
+    position: relative;
+    left: 500px;
+    top: -107px;
+    border-color: yellowgreen;
+    border-top-width: 0ch;
+    border-right-width: 0ch;
+    border-left-width: 0ch;
+}
+
+.amt{
+    position: relative;
+    left: 390px;
+    top: -73px;
+}
+
+.btn{
+    position: relative;
+    left: 300px;
+    top: -70px;
+    background: yellowgreen;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: aliceblue;
+}
+
+#btnt:hover{
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+table, th, td {
+    border: 1px solid yellowgreen;
+    background-color: rgb(245, 239, 239);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    height: 50px;
+}
+
+td{
+    height: 50px;
+    text-align: center;
+}
