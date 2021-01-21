@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="text">
+                EXPENSE TRACKER
+            </div>
+            <div class="details">
+                <p class="name">Name:</p><input class="desc" id="desc" placeholder="Item you spent money on..."><br>
+                <p class="DATE">Date:</p><input class="date" type="date" name="dob" id="dob" size="30">
+                <p class="amt">Amount(in Rs.):</p><input class="amount" id="amount" placeholder="Enter amount expensed"><br>
+            </div>
+            <form>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </header>
+        <table class="table" id="table">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Date</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+    </div>
+
+</body>
+<script src="app.js" type="text/javascript"></script>
+
+</html>
